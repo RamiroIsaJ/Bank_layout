@@ -1,5 +1,5 @@
 # Web development - Frontend
-Web page layout using **HTML, CSS, Bootstrap**. This template is designed to a Bank.
+Web page layout using **HTML, CSS, Bootstrap and Javascript**. This template is designed to a Bank.
 
 ## Navbar and slider
 ![image info](./src/ima1.png)
