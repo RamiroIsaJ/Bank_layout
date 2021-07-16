@@ -1,5 +1,5 @@
 # Web development - Frontend
-Web page layout using **HTML, CSS, Bootstrap and Javascript**. This template is designed to a Bank.
+Web page layout using **HTML, CSS, Bootstrap and Javascript**. This template is designed to a Bank which is a project to Rolling Code School according to the training to Web FullStack developer.
 
 ## Navbar and slider
 ![image info](./src/ima1.png)
