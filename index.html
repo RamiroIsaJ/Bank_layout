@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="RAFIJ">
+    <meta name="description" content="Bank page with bootstrap">
+    <meta name="keywords" content="bootstrap, html, css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/35e1f586d0.js" crossorigin="anonymous"></script>
+    <title>RollingBank</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand text-ini" href="index.html">RollingBank</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/pages/about.html" target="_blank">¿Quienes somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/pages/price.html" target="_blank">Precio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/pages/security.html" target="_blank">Seguridad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/pages/robery.html" target="_blank">Robo o extravio</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section>
+            <div id="sliderProduct" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#sliderProduct" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#sliderProduct" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#sliderProduct" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner images_car">
+                  <div class="carousel-item active">
+                    <img src="/img/1.png" class="d-block w-100" alt="estafas">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/2.png" class="d-block w-100" alt="domicilio">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/3.png" class="d-block w-100" alt="consejos">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#sliderProduct" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#sliderProduct" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <div class="container">
+            <section class="py-3 row icons-ini">
+                <article class="col-sm-12 col-md-4 border border-ligth box cards_">
+                    <div class="margin-1">
+                        <br>
+                        <i class="far fa-handshake fa-2x"></i>
+                    </div>
+                    <div>
+                        <h6> Sin sopresas </h6>
+                        <p>Somos transparentes, no vas a encontrar letra chica.</p>
+                    </div>
+                </article>
+                <article class="col-sm-12 col-md-4 border border-ligth box cards_">
+                    <div class="margin-1">
+                        <br>
+                        <i class="fas fa-balance-scale fa-2x"></i>
+                    </div>
+                    <div>
+                        <h6> Aprobados </h6>
+                        <p> Estamos aprobados y regulados por el Banco Central.</p>
+                    </div>
+                </article>
+                <article class="col-sm-12 col-md-4 border border-ligth box cards_">
+                    <div class="margin-1">
+                        <br>
+                        <i class="fas fa-dollar-sign fa-2x"></i>
+                    </div>
+                    <div>
+                        <h6> Sin costos </h6>
+                        <p> Todas tus operaciones diarias están incluidas.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="py-3 row">
+                <article class="col-sm-12 col-md-4">
+                    <img src="img/iphone-illustration-sec.png" width="320" alt="logo iphone">
+                </article>
+                <article class="col-sm-12 col-md-8">
+                    <h4> Tu seguridad como prioridad </h4>
+                    <p class="lead"> Seguimos las mejores prácticas de cyberseguridad sin complicarte tu operación diaria.</p>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="margin-1">
+                                <i class="far fa-eye fa-3x"></i>
+                            </div>
+                            <h5 class="text-primary"> Biometría</h5>
+                            <p class="p2"> Nuestra tecnología te permite acceder a tu cuenta usando tu huerlla digital o cara.</p>
+                            <br>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="margin-1">
+                                <i class="fas fa-balance-scale fa-3x"></i>
+                            </div>
+                            <h5 class="text-primary"> Segundo factor </h5>
+                            <p class="p2"> Usamos un token invisible para todas las operaciones que hagas.</p>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="margin-1">
+                                <i class="fas fa-laptop-house fa-3x"></i>
+                            </div>
+                            <h5 class="text-primary"> Personal </h5>
+                            <p class="p2"> Vas a poder ingresar desde un dispositivo a la vez a tu cuenta.</p>
+
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="margin-1">
+                                <i class="fas fa-microchip fa-3x"></i>
+                            </div>
+                            <h5 class="text-primary"> 100% Encriptado </h5>
+                            <p class="p2"> Usamos un token invisible para todas las operaciones que hagas. Todas las transacciones son encriptadas para tu mayor seguridad.</p>
+                        </div>
+                    </div>
+                    
+                    
+                </article>
+                
+            </section>
+
+            
+
+        </div>
+
+        <div class="bg-primary py-3">
+            <section class="container box2">
+                <div>
+                    <h2> RollingBank te está esperando</h2>
+                </div>
+                <div> 
+                    <p> Bajá la app y viví la nueva experiencia. Empezá creando tu cuenta solo con tu DNI.</p>
+                </div>
+                <div class="margin-1">
+                    <img src="img/badge-apple-store.svg" width="220" alt="logo apple">
+                    <img src="img/google-play-badge-bb.svg" width="220" alt="logo play store">
+                </div>
+            </section>
+
+        </div>
+    
+    </main>
+
+    
+    <footer class="bg-foot text-light py-5 px-5">
+        <section class="container">
+            <div class="cont">
+                <h3 class="me-5"> RollingBank </h3>
+                <a href="https:/facebook.com" target="_blank" class="me-2"><i class="fab fa-facebook-square fa-2x text-dark"></i></a>
+                <a href="https:/instagram.com" target="_blank" class="me-2"><i class="fab fa-instagram-square fa-2x text-dark"></i></i></a>
+                <a href="https:/twitter.com" target="_blank" class="me-2"><i class="fab fa-twitter-square fa-2x text-dark"></i></i></i></a>    
+            </div>
+            <article class="row justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <h5 class="text-left text-foot"> Navegación </h5>
+                    <div>
+                        <a class="text-left text-foot" href="about.html"> ¿Quienes somos?</a>
+                    </div>
+                    <div>
+                        <a class="text-left text-foot" href="price.html"> Precio</a>
+                    </div>
+                    <div>
+                        <a class="text-left text-foot" href="security.html">Seguridad</a>
+                    </div>
+                    <div>
+                        <a class="text-left text-foot" href=""> Ayuda</a>
+                    </div>
+                    <div>
+                        <a class="text-left text-foot" href="robery.html">Robo o extravío</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <h5 class="text-left text-foot"> Legales </h5>
+                    <div>
+                        <a class="text-left text-foot" href="">Régimen de transparencia</a>
+                    </div>
+                    <div>
+                        <a class="text-left text-foot" href="">Usuario bancario</a>
+                    </div>
+                    <div>
+                        <a class="text-left text-foot" href="">Cuenta bancaria</a>
+                    </div>
+                    <div>
+                        <a class="text-left text-foot" href="">Estados contables</a>
+                    </div>
+                    <div>
+                        <a class="text-left text-foot" href="">Términos y condiciones</a>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="../img/usuariosfinancieros.png" width="180" alt="usuarios finacieros">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <h5 class="text-left text-foot"> Unite </h5>
+                    <div class="margin-1">
+                        <img src="img/badge-apple-store.svg" width="200" alt="logo apple">
+                    </div>
+                    <div class="margin-1">
+                        <img src="img/google-play-badge-bb.svg" width="200" alt="logo play store">
+                    </div>
+                </div>
+            </article>
+        </section>
+
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
