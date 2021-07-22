@@ -31,6 +31,11 @@ a{
     margin: 5px 5px;
 }
 
+.ima_qs{
+    display: flex;
+    justify-content: center;
+}
+
 .cards_{
     display: flex;
     flex-direction: column;
